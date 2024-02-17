@@ -1,0 +1,56 @@
+.icon1{
+    text-align: left;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+    padding-top: 25px;
+}.header{
+    background-image: url('');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #36d9ce;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px; 
+    position: relative;
+    z-index: -1;
+}
+.wel{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+body{
+    background-color: #36d9ce;
+}
+.head{
+justify-items: auto;
+    white-space: nowrap;
+}
+.icon{
+    background-color: #36d9ce;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    display: inline-grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-gap: 3px;
+  
+  justify-content: center;
+}
+.signUp{
+    margin-top: 0px;
+    text-align: center;
+    background-color: cornflowerblue;
+   
+    display: block;
+}
+.footer{
+    background-color: #36d9ce;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+}

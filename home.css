@@ -1,0 +1,97 @@
+.icon1{
+    text-align: left;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+    padding-top: 25px;
+}.header{
+    background-image: url('');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #36d9ce;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px; 
+    position: relative;
+    z-index: -1;
+}
+
+.head{
+justify-items: auto;
+    white-space: nowrap;
+}
+.seg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #a1d4d1;
+    
+}
+.point{
+    border: none;
+  border-radius: 5px;
+    margin: 15px;
+    background-color: #186963;
+    height: 350px;
+    width: 250px;
+    text-align: center;
+    
+}
+.about{
+    text-align: center;
+}
+p{
+    text-align: right;
+}
+@keyframes buttonBlink{
+    0%{
+        border-radius: 5px;
+    }
+    100%{
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+
+  .sign:hover {
+    background-color: #04AA6D;
+    color: white;
+    animation-name: buttonBlink;
+    animation-duration: 0.3s;
+  }
+.sign{
+    border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+   color: black;
+    padding: 5%;
+    background-color: aqua;
+    transition-duration: 0.4s;
+    text-align: center;
+    display: inline-block;
+    margin: 2px;
+}
+.icon{
+    background-color: #36d9ce;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    display: inline-grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-gap: 3px;
+  
+  justify-content: center;
+}
+.footer{
+    background-color: #36d9ce;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+}
